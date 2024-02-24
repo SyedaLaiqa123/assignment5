@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body, h1, h2, p, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+P {
+    font-size:  18px;
+    line-height: 28px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: justify;
+    vertical-align: top;
+    text-indent: 50px;
+}
+.profile img {
+    border-radius: 50%;
+}
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.Information {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .profile img {
+        width: 100%;
+        height: auto;
+    }
+
+    div {
+        padding: 10px;
+    }
+}
+a:hover{ color: lightslategray;
+
+}
+a:visited{ color: green;
+}
+.intro::first-letter{
+    font-size: 50px;
+}
+.intro::first-line{ 
+    color: #555;
+}
